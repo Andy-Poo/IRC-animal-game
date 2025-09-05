@@ -25,9 +25,9 @@ An IRC bot animal game: This bot generates animals in your IRC channel and users
 * To get a list of commands, type !ahelp (animal help). The list of commands will be sent to the user in direct messages from the bot.
 * The list of save and kill commands is listed and described above.
 * !stats : shows your statistics
-* !state <nick> : shows the statistics for the user, <nick>
+* !stats NICK : shows the statistics for the user, NICK
 * !animals : shows all statistics on all the animals. Since it generates a lot of output, it is sent in direct messages from the bot.
-* !animal <animal> : shows the save and kill statistics of the animal, <animal>
+* !animal ANIMAL : shows the save and kill statistics of the animal, ANIMAL
 * !winner or !win or !won : shows who won the save or kill of the last animal.
 
 ## Administrative commands
