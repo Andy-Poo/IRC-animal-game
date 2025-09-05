@@ -1,4 +1,5 @@
 # IRC-animal-game
+An IRC bot animal game: This bot generates animals in your IRC channel and users in the channel can either save or kill the generated animal. The object of the game is to be the first person in the channel to save or kill an animal and statistics are kept of the winners of the game.
 
 ## Configuring the bot
 
@@ -19,7 +20,7 @@
 * To kill an animal, type one of: !kill !bang, !club, !axe, !ak47, !shoot, !spear, !harpoon, !choke, !hang, !murder, !squash, !squish, !stomp, !nuke, !eat
 * All users of the channel can print statistics to see who is the leader of saves and kills. The method of kills are also recorded in the stats.
 
-# The commands
+## The commands
 
 * To get a list of commands, type !ahelp (animal help). The list of commands will be sent to the user in direct messages from the bot.
 * The list of save and kill commands is listed and described above.
@@ -29,7 +30,7 @@
 * !animal <animal> : shows the save and kill statistics of the animal, <animal>
 * !winner or !win or !won : shows who won the save or kill of the last animal.
 
-# Administrative commands
+## Administrative commands
 
 * Only the nicks you have configured in "animal_admins" can execute these commands:
 
