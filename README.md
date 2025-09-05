@@ -33,9 +33,8 @@ An IRC bot animal game: This bot generates animals in your IRC channel and users
 ## Administrative commands
 
 * Only the nicks you have configured in "animal_admins" can execute these commands:
-
 * !aoff : turn off the animal game (stop generating animals)
 * !aon : turn it back on again
 * !afast : make the animal game run fast. Two animals will be generated per minute. The main purpose of this is for testing. Type !afast again to toggle it.
 * !atrigger : generate an animal immediately for testing purposes.
-* !arooster : make a rooster appear at the top of the hour instead of a random animal. (Note that animals always appear at random at other times). Type !arooster again to toggle it.
+* !arooster : make a rooster appear at the top of the hour instead of a random animal. (Note that a random animal always appear at other times). Type !arooster again to toggle it.
