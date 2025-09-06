@@ -11,6 +11,9 @@ An IRC bot animal game: This bot generates animals in your IRC channel and users
 1. decide on the nicks that you want to have adminstrative access to control the bot and add these nicks in "animal_admins" in lower case
 1. change "animal_database" to the directory of your newly-created data directory
 
+## Running the bot
+After configuring the bot, on Linux type: ./animal.py &
+
 ## How the game is played.
 
 * An animal is printed to the channel you have configured at the top of every hour and at a random interval between 10 minutes and 50 minutes past the hour.
