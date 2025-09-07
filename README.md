@@ -18,7 +18,7 @@ After configuring the bot, on Linux type: ./animal.py &
 
 * An animal is printed to the channel you have configured at the top of every hour and at a random interval between 10 minutes and 50 minutes past the hour.
 * Users of the channel compete to see who can save or kill the animal the fastest.
-* The first person to save or kill an animal wins and a count is added to their score. If you are not the first person to save or kill and animal, "TOO LATE" will be printed.
+* The first person to save or kill an animal wins and a count is added to their score. If you are not the first person to save or kill an animal, "TOO LATE" will be printed to the channel.
 * To save an animal, type !save or !bef or !befriend to the channel.
 * To kill an animal, type one of: !kill !bang, !club, !axe, !ak47, !shoot, !spear, !harpoon, !choke, !hang, !murder, !squash, !squish, !stomp, !nuke, !eat
 * All users of the channel can print statistics to see who is the leader of saves and kills. The method of kills are also recorded in the stats.
