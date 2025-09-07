@@ -1,5 +1,13 @@
 #!/usr/bin/env python3
 
+"""
+VVVVVVVVVVVVVVVVVVVVV
+CONFIGURATION SECTION
+VVVVVVVVVVVVVVVVVVVVV
+"""
+
+# MODIFY THIS SECTION FOR YOUR ORGANIZATION:
+
 # bot server specific settings
 server = "irc.yourircserverdomain"
 channel = "#yourchannel"
@@ -11,6 +19,13 @@ animal_admins = ["mod1", "mod2"]
 
 # animal "database" to save stats during bot restarts
 animal_database = "/home/andy/data/animal.pickle"
+
+"""
+^^^^^^^^^^^^^^^^^^^^^
+CONFIGURATION SECTION
+^^^^^^^^^^^^^^^^^^^^^
+"""
+
 
 # flags for turning on debugging diagnostics
 test = False
@@ -95,11 +110,11 @@ import random
 import pickle
 
 """
-this is the list of animals we support in the animal game
-the dictionary key is the animal emoji,
-which will be inserted into the output in the
-required surrounding colons.
-The dictionary items consist of these objects:
+This is the list of animals we support in the animal game.
+You can add more, if you wish.
+The dictionary key is also the key used to access the
+animal emoji in the dictionary, animal_emojis.
+Each dictionary item consist of a list of these objects:
 [0] the sound the animal makes
 [1] the number of times the animal was saved
 [2] the number of times the animal was killed
@@ -768,7 +783,6 @@ class AnimalThread(threading.Thread):
         self.e = e
 
     def run(self):
-        nachat_prompt = "There's an animal loose in #off-topic"
         while not self.die:
             if animal_enabled:
                 tm = time.localtime()
